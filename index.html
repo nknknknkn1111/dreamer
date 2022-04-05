@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Код блочного сайта</title>
+
+
+<style>
+body{
+  background:#ffc0cb; 
+}
+
+#wrapper{
+  width: 900px; 
+  margin: 0 auto;
+  background:#ff33cc; 
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative; 
+  height: 250px; 
+  background-color: #ffffff; 
+   margin-bottom: 5px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+img{ 
+float: left; 
+  margin: -40px 0 0 0;} 
+h1{ 
+  margin:0 0 10px 40px; 
+  color:#ff0000;
+}
+.nomer{ 
+  position:absolute; 
+  top:5px; 
+  left:680px; 
+  font-size: 25px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#464431; 
+}
+
+
+
+#sidebar{ 
+  background-color: #f664af; 
+  width: 180px; 
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.marcer{ 
+  float: left; 
+  margin: 5px 5px 0 0; 
+}
+
+
+#content{ 
+  margin-bottom: 5px; 
+  width: 676px; 
+  padding: 10px; 
+  background: #ffcc99; 
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ 
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ 
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+
+
+#footer{ 
+  height:80px; 
+  background-color: #ff9966; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.clear{ 
+  clear: both;
+}
+  .fon{ 
+  float:left; 
+  margin:20px 0 0 20px;
+}
+.fax{ 
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>Салон красоты "Beauty aesthetic"</h1>
+<!--Описание (телефон)-->
+        <p class="nomer">8-383-155-30-67<br> +79528952608</p>
+<!--Фоновая картинка в шапке сайта-->
+      <img src="images/shaaapka.png">
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>На нашем сайте</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img class="marcer" src="images/marker.png" width="10" height="10">Наши сотрудники</p>
+        <p><img class="marcer" src="images/marker.png" width="10" height="10">О салоне</p>
+        <p><img class="marcer" src="images/marker.png" width="10" height="10">Прайс</p>
+<!--Прямая синяя линия-->
+          <hr width="50" color="#037FFC" size="5">
+<!--Общая информация в сайдбаре-->
+      <h3>Другая информация</h3>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+
+<!--Заголовок статьи-->
+        <h3>"Beauty aesthetic" </h3>
+<!--Текст статьи-->
+<p>Здравствуйте! Мы очень рады видеть вас на этом сайте</p>
+<p>Открытие нашего салона происходило 14 февраля 2022г. 
+С того дня мы стараемся быть лучшими в городе и радовать прекрасных девушек</p>
+<p>Мы работаем только с натуральными и надежными инструментами и материалами из Франции.</p>
+<p>У нас очень высокое количество услуг,прайс которых вы можете посмотреть в навигации нашего сайта.
+</p>
+<!--Картинка справа-->
+      <img class="right" src="images/klklkl.png">
+
+<p>Записаться на услугу нашего салона вы можете прямо на сайте или позвоните по номеру, данным в шапке данного сайта! Если по какой-то причине
+ вы не сможете придти на услугу.позвоните или напишите в отзывах, чтобы предупредить наших сотрудников! Заранее благодарим вас за соблюдение правил!</p>
+<p>Если вы хотите стать частью нашей команды просим оставить вас своё резюме во вкладке "наши сотрудники"</p>
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+<!--Подвал-->
+    <div id="footer">
+      <p class="fon"><strong>Телефон:<br> 8-383-155-30-67</strong> </p>
+      <p class="fax"><strong>Факс:<br> 8-383-155-30-67</strong></p>
+      <p class="mail"><strong>E-mail<br>krisnurkina@gmail.com</strong></p>
+
+    </div>
+  </div>
+</body>
+</html>

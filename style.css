@@ -1,0 +1,91 @@
+<style>
+body{
+  background:#c0c0c0; 
+  }
+#wrapper{ 
+  width: 900px; 
+  margin: 0 auto;
+  background:#f2e8c9; 
+}
+/* Шапка сайта */
+#header{
+  width: 900px;    
+  height: 200px;   
+  background-color: #25B33f;  
+  margin-bottom: 10px;   
+}
+img{ 
+float: left; 
+  margin: 40px 0 0 0;} 
+h1{ 
+  margin:0 0 10px 40px; 
+  color:#464451; 
+}
+.nomer{ 
+  position:absolute; 
+  top:5px; 
+  left:680px; 
+  font-size: 25px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#464451; 
+
+/* Сайдбар (колонка справа) */
+
+#sidebar{ 
+  background-color: #f664af; /
+  width: 180px; 
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.marcer{ 
+  float: left;
+  margin: 5px 5px 0 0; 
+}
+
+/* Контент (статья) */
+
+#content{ 
+  margin-bottom: 5px; 
+  width: 676px; 
+  padding: 10px; 
+  background: #ffcc99;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ 
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ 
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ 
+  height:80px;
+  background-color: #ffffff; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.clear{ 
+  clear: both;
+}
+  .fon{ 
+  float:left; 
+  margin:20px 0 0 20px;
+}
+.fax{ 
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ 
+  float:left;
+ margin:20px 0 0 60px;
+}
+</style>
+</head>
